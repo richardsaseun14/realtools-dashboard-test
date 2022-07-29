@@ -1,0 +1,28 @@
+/* Style the tab */
+.Tabs {
+	padding: 0 40px;
+	margin: 28px 0;
+	overflow: hidden;
+	border-bottom: 1px solid #81868c1b;
+	display: flex;
+	div {
+		outline: none;
+		background-color: transparent;
+		cursor: pointer;
+		padding: 16px 0 16px 0;
+		margin-right: 28px;
+		transition: 0.3s;
+		font-size: 14px;
+		span {
+			background-color: #e9ecf199;
+			margin-left: 8px;
+			padding: 4px 8px;
+			border-radius: 8px;
+			color: #737a91;
+			font-weight: 600;
+		}
+		&:hover:not(.tab-active) {
+			border-bottom: 3px solid #0747a6;
+		}
+	}
+}
